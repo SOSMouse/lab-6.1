@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <style>
+        .muc-chinh{
+            float:left;
+            width: 25%;
+            border-right: 2px solid aqua;
+            height: 100%;
+        }
+        .muc-chinh > h2{
+            text-align: center;
+        }
+        h2{
+            margin: 0px;
+            padding: 0px;
+        }
+        #Trang-chu{
+            width:100%;
+            height:350px;
+            padding:50px 50px 100px 50px;
+            background-color:gainsboro;
+        }
+        #Trang-chu > h1{
+            text-align: center;
+        }
+        .container{
+            width: 75%;
+            height: 70px;
+            margin-bottom: 5px;
+            padding: 10px;
+        }
+        .noi-dung{
+            text-align: justify;
+            width: 74%;
+            float:right;
+            height: 100%;
+            
+        }
+        .noi-dung > p{
+            display: inline-block;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+            font-size: 20px;
+            width: 100%;
+        }
+        #su-menh{
+            background-color: red;
+            border: 5px solid orangered;
+            border-radius: 10px;
+        }
+        #su-menh > .muc-chinh > h2{
+            margin-top: 17px;
+        }
+        #Triet-ly-Giao-duc{
+            background-color: blueviolet;
+            border: 5px solid orangered;
+            border-radius: 10px;
+        }
+        #Triet-ly-Giao-duc > .muc-chinh > h2{
+            margin-top: 10px;
+        }
+        #Van-hoa{
+            height: 110px;
+            background-color: brown;
+            border:5px solid orangered;
+            border-radius: 10px;
+        }
+        #Van-hoa > .muc-chinh > h2{
+            padding-top:35px;
+        }
+        @media(max-width:580px){
+        .muc-chinh{
+            width: 100%;
+            border:2px double aqua;
+            border-radius: 10px;
+            height: 50px;
+            display: block;
+            position: relative;
+        }
+        .muc-chinh > h2{
+            text-align: center;
+        }
+        h2{
+            margin: 0px;
+            padding: 0px;
+        }
+        #Trang-chu{
+            width:100%;
+            height:350px;
+            padding:50px 50px 100px 50px;
+            background-color:gainsboro;
+        }
+        #Trang-chu > h1{
+            text-align: center;
+        }
+        .container{
+            width: 100%;
+            height: 200px;
+            margin-bottom: 5px;
+            padding: 10px;
+            position: relative;
+            text-align: justify;
+        }
+        .noi-dung{
+            
+            width: 75%;
+            position: absolute;
+            left: 12.5%;
+            top:80px
+        }
+        .noi-dung > p{
+            display: inline-block;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+            font-size: 20px;
+            width: 100%;
+        }
+        #su-menh{
+            background-color: red;
+            border: 5px solid orangered;
+            border-radius: 10px;
+        }
+        #Triet-ly-Giao-duc{
+            background-color: blueviolet;
+            border: 5px solid orangered;
+            border-radius: 10px;
+        }
+        #Van-hoa{
+            height: 240px;
+            background-color: brown;
+            border:5px solid orangered;
+            border-radius: 10px;
+        }
+        #Van-hoa > .muc-chinh > h2{
+            position: absolute ;
+            bottom: 11px;
+            left: 42%;
+        }
+        #su-menh > .muc-chinh > h2{
+            position: absolute ;
+            bottom: 11px;
+            left: 42%;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="Trang-chu">
+        <h1>"Khát vọng đổi thay"</h1>
+        <div class="container" id="su-menh">
+            <div class="muc-chinh">
+                <h2>Sứ mệnh</h2>
+            </div>
+            <div class="noi-dung">
+                <p>Cung cấp năng lực cạnh tranh toàn cầu cho đông đảo người học, góp phần mở mang bờ cõi trí tuệ đất nước.</p>
+            </div>
+            </div>
+        <div class="container" id="Triet-ly-Giao-duc">
+            <div class="muc-chinh">
+                <h2>Triết lý Giáo Dục</h2>
+            </div>
+            <div class="noi-dung">
+                <p>Giáo dục đào tạo là tổ chức và quản trị việc tự học của người học</p>
+            </div>
+        </div>
+        <div class="container" id="Van-hoa">
+            <div class="muc-chinh">
+                <h2>Văn hóa</h2>
+            </div>
+            <div class="noi-dung">
+                <p>
+                    <strong>Tôn đổi đồng chí gương sáng</strong><br/>
+                    Tôn trọng, Đổi mới, Đồng đội, Chí công<br/>
+                    Gương mẫu, Sáng suốt.<br/>
+                    <strong>Học thật, thi thật, thành công thật<br/></strong>
+                    <strong>Làm khác để làm tốt</strong>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
